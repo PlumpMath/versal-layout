@@ -1,0 +1,20 @@
+{
+  "name": "layout",
+  "version": "0.0.0",
+  "authors": [
+    "Ryan <polyrhythm@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "versal-component-runtime": "~0.2.5",
+    "versal-gadget-launchers": "~0.3.3"
+  }
+}

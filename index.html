@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>lol</title>
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- dependency for web components -->
+    <script src="bower_components/versal-component-runtime/dist/runtime.min.js"></script>
+
+    <!-- import gadget launcher -->
+    <link rel="import" href="bower_components/versal-gadget-launchers/iframe-launcher/iframe-launcher.html" />
+  </head>
+  <body>
+    <div class="gadget-wrapper">
+      <versal-iframe-launcher
+        class="gadget"
+        src="https://stack.versal.com/api2/gadgets/ryjo/Highlightr/0.1.1/versal.html"
+        data-config='{"code": "function() {\n  var whatup, dawg;\n\n  return dawg;\n}", "theme": "xcode"}'
+        data-environment='{ "assetUrlTemplate": "https://static.versal.com/assets/<%= id %>" }'>
+      </versal-iframe-launcher>
+    </div>
+
+    <div class="gadget-wrapper">
+      <versal-iframe-launcher
+        class="gadget"
+        src="https://stack.versal.com/api2/gadgets/ryjo/Highlightr/0.1.1/versal.html"
+        data-config='{"code": "function() {\n  var whatup, dawg;\n\n  return dawg;\n}", "theme": "vs"}'
+        data-environment='{ "assetUrlTemplate": "https://static.versal.com/assets/<%= id %>" }'>
+      </versal-iframe-launcher>
+    </div>
+
+    <div class="gadget-wrapper">
+      <versal-iframe-launcher
+        class="gadget"
+        src="https://stack.versal.com/api2/gadgets/ryjo/Highlightr/0.1.1/versal.html"
+        data-config='{"code": "function() {\n  var whatup, dawg;\n\n  return dawg;\n}", "theme": "tomorrow"}'
+        data-environment='{ "assetUrlTemplate": "https://static.versal.com/assets/<%= id %>" }'>
+      </versal-iframe-launcher>
+    </div>
+
+    <!-- draggable lib -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/draggabilly/1.0.2/draggabilly.pkgd.js"></script>
+    <!-- main script file -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

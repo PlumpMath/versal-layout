@@ -1,0 +1,31 @@
+{
+  "name": "versal-gadget-launchers",
+  "version": "0.3.3",
+  "author": "Versal team <support@versal.com>",
+  "description": "Various launchers for gadgets on versal.com",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://github.com/Versal/versal-gadget-launchers",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "package.json"
+  ],
+  "devDependencies": {
+    "versal-component-runtime": "~0.2.2",
+    "underscore": "~1.6.0",
+    "backbone": "1.0.0",
+    "jquery": "~2.1.1"
+  },
+  "_release": "0.3.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.3.3",
+    "commit": "7af0bd858d0549bf3dbbd42b31ab420160594cf8"
+  },
+  "_source": "git://github.com/Versal/versal-gadget-launchers.git",
+  "_target": "~0.3.3",
+  "_originalSource": "versal-gadget-launchers",
+  "_direct": true
+}
